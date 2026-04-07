@@ -12,3 +12,4 @@ faiss-cpu
 pypdf==3.17.4
 python-multipart==0.0.6
 tavily-python==0.3.0
+huggingface-hub==0.14.1
