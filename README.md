@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 # Smart Research Assistant
 
 A web-based intelligent research assistant that combines Local Knowledge Retrieval (RAG via FAISS) with Web Fallback (Tavily AI), powered by Google Gemini.
-
+Users upload documents and an AI agent answers questions using those documents, with the ability to use tools when the documents aren’t enough.
 ## Features
 
 - **Upload PDFs**: Extract text, chunk securely, and parse automatically
@@ -39,7 +38,3 @@ npm run dev
 ```
 
 *Note: Your Gemini API key is provided directly in the frontend UI, not in the backend config.*
-=======
-# Smart-Research-Assistant
-RAG-powered research assistant where users upload documents and an AI agent answers questions using those documents, with the ability to use tools when the documents aren’t enough.
->>>>>>> 4b0fb1267c3b373799e93044bb1165e410d0ceb2
