@@ -13,7 +13,7 @@ def fallback_web_search(query: str) -> str:
     A direct web search wrapper that returns the result string.
     Tavily search is used when the vector store doesn't have relevant documents.
     """
-    tavily_tool = TavilySearchResults(max_results=3)
+    tavily_tool = TavilySearchResults(max_results=3, tavily_api_key=settings.TAVILY_API_KEY)
     return tavily_tool.invoke({"query": query})
 
 def create_llm(gemini_api_key: str):
